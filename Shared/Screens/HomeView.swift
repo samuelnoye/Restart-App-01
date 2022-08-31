@@ -17,7 +17,7 @@ struct HomeView: View {
         VStack(spacing:20){
             Text("Home")
                 .font(.largeTitle)
-          //  Button(action:{
+            Button(action:{
             isOnboardingViewActive = true
             }){ 
                 Text("Restart")
